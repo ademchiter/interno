@@ -3,3 +3,40 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+
+text-decoration: none;
+color:black
+}
+
+.w-33{
+    width: 33%;
+}
+
+/* rendre flexible un parent = aligner ses enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+header ul{
+list-style: none;
+}
