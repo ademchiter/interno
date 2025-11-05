@@ -1,18 +1,37 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-a{
 
-text-decoration: none;
-color:black
+.container{
+max-width: 1000px;
+margin-left:auto;
+margin-right:auto;
+width: 100%;
 }
 
-.w-33{
+
+a {
+
+    text-decoration: none;
+    color: black
+}
+
+.w-33 {
     width: 33%;
 }
+
+.w-50{
+    width: 48%;
+}
+
+
+.w-100{
+    width:100%;
+}
+
 
 /* rendre flexible un parent = aligner ses enfants */
 .flex {
@@ -21,22 +40,50 @@ color:black
 }
 
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.space-around{
+.space-around {
     justify-content: space-around;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-header ul{
-list-style: none;
+header ul {
+    list-style: none;
 }
+
+
+.section-hero {
+    background-image: url(asset/Banner.jpg);
+    border-bottom-left-radius: 80px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.btn{
+background-color: #292F36;
+color:white;
+border-radius: 5px;
+padding: 10px 20px;
+display: inline-block;
+}
+
+.btn-primary{
+    font-size: 17px;
+}
+
+.btn-secondary{
+    font-size: 14px;
+}
+
